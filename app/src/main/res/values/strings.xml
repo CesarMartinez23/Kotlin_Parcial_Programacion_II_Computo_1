@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Partial Computation 1</string>
+
+<!--    Create Text Used-->
+    <string name="hint_EditText_number">Enter a number (Optional)</string>
+    <string name="tittle_app_principal_TextView">Calculator</string>
+    <string name="tittle_Button_sumNumbers">Sum</string>
+    <string name="text_TextView_result">Result</string>
 </resources>
