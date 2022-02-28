@@ -29,13 +29,13 @@ class MainActivity : AppCompatActivity() {
                 txtResultado.setTextColor(Color.parseColor("#008000"))
             }else {
                 if (txtNumberoOne.text.isNotEmpty() && txtNumberoTwo.text.isEmpty()) {
-                    txtResultado.text = "El Resultado es: ${txtNumberoOne.text}"
+                    txtResultado.text = "The result is: ${txtNumberoOne.text}"
                     txtResultado.setTextColor(Color.parseColor("#FF8000"))
                 }else if (txtNumberoOne.text.isEmpty() && txtNumberoTwo.text.isNotEmpty()){
-                    txtResultado.text = "El Resultado es: ${txtNumberoTwo.text}"
+                    txtResultado.text = "The result is: ${txtNumberoTwo.text}"
                     txtResultado.setTextColor(Color.parseColor("#FF8000"))
                 }else{
-                    txtResultado.text = "Datos Erroneos"
+                    txtResultado.text = "Error Data"
                     txtResultado.setTextColor(Color.parseColor("#FF0000"))
                 }
             }
