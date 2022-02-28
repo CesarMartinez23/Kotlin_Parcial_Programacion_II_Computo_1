@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
                     txtResultado.text = "The result is: ${txtNumberoTwo.text}"
                     txtResultado.setTextColor(Color.parseColor("#FF8000"))
                 }else{
-                    txtResultado.text = "Error Data"
+                    txtResultado.text = "Wrong data"
                     txtResultado.setTextColor(Color.parseColor("#FF0000"))
                 }
             }
